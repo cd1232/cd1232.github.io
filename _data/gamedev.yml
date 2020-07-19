@@ -1,0 +1,20 @@
+- title: Grimder
+  image: images/grimder-logo.png
+  description: Grimder was a Ludum Dare game made in 72 hours with myself as the programmer and 3 artists. The theme for LD42 was Running Out of Space and our team came up with the idea of Death managing queues to Heaven and Hell by swiping left and right (A play on Tinder). This project was done using Unity and C#. 
+  source:
+  exe: https://craigduthie.itch.io/grimder
+- title: Bound
+  image: images/bound-pic.png
+  description: Bound was a prototype worked on by 2 programmers, 3 artists, and 1 sound engineer in Unity using C#. This game followed the themes of Minimalism and One-Button. This prototype was done over 1 week.
+  source: https://github.com/cd1232/Bound
+  exe: https://craigduthie.itch.io/bound
+- title: Supercity
+  image: images/supercity.png
+  description: SuperCity was originally a prototype developed in Unity and C# in 1 week by a team of 2 programmers, 3 artists, and 1 sound engineer. This prototype was taken further in mini-production and worked on for another 4 weeks.
+  source: https://github.com/cd1232/Supercity
+  exe: https://craigduthie.itch.io/supercity
+- title: Exspelled
+  image: images/exspelled.png
+  description: Exspelled is a (4 player) multiplayer game played over the LAN. This game is the 3rd year project for our group of 2 programmers, 4 artists, and 1 sound engineer. I was responsible for a lot of the player character, and dealing with the replication of things like potion throwing and dashing. I also dealt with programming some of the puzzle elements that some of our team designed.
+  source:
+  exe: https://onemanup.itch.io/exspelled
