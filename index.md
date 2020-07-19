@@ -15,11 +15,11 @@ layout: home
         <h1 class="text-center text-3xl font-bold leading-wide uppercase">Web Dev Projects</h1>
         <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-4 px-8 pt-3 pb-10">
             {% for item in site.data.webdev %}    
-                <div class="flex flex-col sm:flex-row">
-                        <div class="sm:w-1/3 flex-shrink-0">
+                <div class="flex flex-col md:flex-row">
+                        <div class="md:w-1/3 flex-shrink-0">
                             <img class="w-full h-full object-cover" src="{{ item.image }}"/>
                         </div>
-                        <div class="mt-3 sm:mt-0 sm:ml-3">
+                        <div class="mt-3 md:mt-0 md:ml-3">
                         <div class="flex items-center">
                             <h3 class="font-semibold">{{ item.title }}</h3>
                             <a href="{{ item.source }}" class="w-5 h-5 ml-3 hover:text-blue-500">
@@ -40,11 +40,11 @@ layout: home
     <div>
         <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-4 px-8 pt-3 pb-10">
             {% for item in site.data.gamedev %}            
-                <div class="flex flex-col sm:flex-row">
-                    <div class="sm:w-1/3 flex-shrink-0">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/3 flex-shrink-0">
                         <img class="w-full h-full object-cover" src="{{ item.image }}"/>
                     </div>
-                    <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <div class="mt-3 md:mt-0 md:ml-3">
                         <div class="flex items-center">
                             <h3 class="font-semibold">{{ item.title }}</h3>
                             {% if item.source != null %}
