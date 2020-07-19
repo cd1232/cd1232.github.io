@@ -4,7 +4,27 @@
     <link rel="stylesheet" href="{{ site.data.manifest['docs.css'] }}">
     <title>Craig Duthie Portfolio</title>
 </head>  
-<body>
-    {{ content }}
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-white pt-2 shadow">
+        <div class="container mx-auto items-center flex justify-between">
+            <a href="/" class="block pb-3 text-2xl font-semibold tracking-wide uppercase">
+                Craig Duthie Portfolio
+            </a>
+            <ul class="flex">
+                <li class="block pb-3 border-b-2 border-transparent hover:text-blue-600 hover:border-blue-600">
+                   <a href="/">Home</a> 
+                </li>
+                <li class="block ml-10 pb-3 border-b-2 border-transparent hover:text-blue-600 hover:border-blue-600">
+                    <a href="/projects.html">Projects</a> 
+                </li>
+                <li class="block ml-10 pb-3 border-b-2 border-transparent hover:text-blue-600 hover:border-blue-600">
+                    <a href="/contact.html">Contact</a> 
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container mx-auto bg-gray-100 mt-5">
+        {{ content }}
+    </div>
 </body>  
 </html>  
