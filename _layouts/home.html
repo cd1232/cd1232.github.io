@@ -15,7 +15,7 @@
                     <ul class="flex pr-5">
                         {% for item in site.data.navigation %}
                             <li>
-                                <a href="{{ item.link }}" class="{% if forloop.index > 1 %}ml-10 {%endif %}block cursor-pointer pb-4 border-b-2 border-transparent hover:text-blue-700 hover:border-blue-700">
+                                <a href="{{ item.link }}" class="{% if forloop.index > 1 %}ml-8 {%endif %}block cursor-pointer pb-4 border-b-2 border-transparent hover:text-blue-700 hover:border-blue-700">
                                 {{ item.name }}
                                 </a>
                             </li>
@@ -24,7 +24,7 @@
                 </nav>
             </div>
         </header>
-        <div class="mx-auto pt-5 flex-grow w-full">
+        <div class="mx-auto pt-5 flex-grow h-full w-full">
             {{ content }}
         </div>
         <footer class="bg-gray-400 w-full border-t-1 border-grey-200">
