@@ -5,11 +5,6 @@
 
 /* Write your styles below this line. */
 
-html
-{
-    overflow-y:overlay;
-}
-
 /* Write your styles above this line. */
 
 @tailwind utilities;

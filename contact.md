@@ -15,7 +15,7 @@ permalink: /contact
                         <label class="sr-only">
                             Your email:                            
                         </label>
-                        <input type="text" class="outline-none focus:border-gray-500 w-full my-3 py-1 px-1 border" name="_replyto" placeholder="Email">
+                        <input type="text" class="outline-none focus:border-gray-500 w-full my-3 py-2 px-1 border" name="_replyto" placeholder="Email">
                     </div>
                     <div>
                         <label class="sr-only">
