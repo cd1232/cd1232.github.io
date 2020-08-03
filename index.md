@@ -19,7 +19,7 @@ layout: home
                         <div class="lg:w-1/3 flex-shrink-0">
                             <img class="w-full h-full object-cover shadow" src="{{ item.image }}"/>
                         </div>
-                        <div class="mt-3 lg:mt-0 ml-3">
+                        <div class="mt-3 lg:mt-0 mx-3">
                             <div class="flex items-center">
                                 <h3 class="font-semibold">{{ item.title }}</h3>
                                 <a href="{{ item.source }}" class="w-5 h-5 ml-3 hover:text-blue-500">
@@ -46,7 +46,7 @@ layout: home
                         <img class="w-full h-full object-cover shadow" src="{{ item.image }}"/>
                     </a>
                     </div>
-                    <div class="mt-3 lg:mt-0 ml-3">
+                    <div class="mt-3 lg:mt-0 mx-3">
                         <div class="flex items-center">
                             <h3 class="font-semibold">{{ item.title }}</h3>
                             {% if item.source != null %}

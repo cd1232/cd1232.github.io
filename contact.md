@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Contact
-permalink: /contact
+permalink: /contact/
 ---
 
 <div class="container mx-auto pb-10">
