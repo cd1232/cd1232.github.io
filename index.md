@@ -3,8 +3,6 @@ title: Home
 layout: home
 ---
 
-{% raw %}{% seo %}{% endraw %}
-
 <div class="w-full pb-16 bg-gray-100">
     <div class="container mx-auto pt-6 leading-wide uppercase font-semibold md:text-xs text-center">
         <p>Game Developer.</p>

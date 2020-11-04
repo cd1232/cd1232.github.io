@@ -28,6 +28,19 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+title: Craig Duthie Portfolio
+tagline: An avid gamer and game developer
+twitter:
+  username: craig_duthie
+  card: summary
+
+social:
+  name: Craig Duthie
+  links:
+    - https://twitter.com/craig_duthie
+    - https://www.linkedin.com/in/craig-duthie-7b728b70/
+    - https://github.com/cd1232
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
