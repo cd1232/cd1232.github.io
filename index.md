@@ -3,27 +3,29 @@ title: Home
 layout: home
 ---
 
-<div class="w-full pb-16 bg-gray-100">
-    <div class="container mx-auto pt-6 leading-wide uppercase font-semibold md:text-xs text-center">
-        <p>Game Developer.</p>
-        <p>Web Developer.</p>
+<div class="w-full pb-12 bg-gray-100">
+    <div class="container mx-auto px-3 md:px-0 pt-6 leading-wide text-center md:text-left md:text-xl">
+        <p>Hello!</p>
+        <div class="pt-3 md:max-w-md">
+            <p>I'm Craig Duthie, a passionate gameplay and tools developer and an avid gamer.</p>
+        </div>
     </div>
 </div>
 
 <div class="w-full relative pt-4 bg-gray-300">
-    <div class="w-full lg:container mx-auto">
+    <div class="w-full md:container mx-auto">
     <h1 class="text-center text-3xl font-bold leading-wide uppercase">Game Dev Projects</h1>
     <div>
-        <div class="grid grid-cols-2 gap-4 lg:px-8 pt-3 pb-10">
+        <div class="grid grid-cols-2 gap-4 pt-3 pb-10">
         {% assign gamedevprojects = site.projects | where:"group","gamedev" %}
             {% for item in gamedevprojects %}            
-                <div class="flex flex-col lg:flex-row col-span-2 lg:col-span-1">
-                    <div class="lg:w-1/3 flex-shrink-0">
+                <div class="flex flex-col md:flex-row col-span-2 md:col-span-1">
+                    <div class="md:w-1/3 flex-shrink-0">
                     <a href="/projects/{{item.urlsafetitle}}" class="hover:text-blue-500">
                         <img class="w-full h-full object-cover shadow" src="{{ item.image }}"/>
                     </a>
                     </div>
-                    <div class="mt-3 lg:mt-0 mx-3">
+                    <div class="mt-3 md:mt-0 mx-3">
                         <div class="flex items-center">
                             <h3 class="font-semibold"><a href="/projects/{{item.urlsafetitle}}" class="hover:text-blue-500">{{ item.title }}</a></h3>
                             {% if item.source != null %}
@@ -37,7 +39,7 @@ layout: home
                             </a>
                             {% endif %}
                         </div>
-                        <p class="lg:text-sm"> {{ item.description | truncate : 210 }}</p>
+                        <p class="md:text-sm"> {{ item.description | truncate : 210 }}</p>
                     </div>
                 </div>
             {% endfor %}
