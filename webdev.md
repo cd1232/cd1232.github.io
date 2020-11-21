@@ -6,7 +6,7 @@ layout: home
 <div class="w-full relative pt-4">
     <div class="w-full md:container mx-auto">
         <h1 class="text-center text-3xl font-bold leading-wide uppercase">Web Dev Projects</h1>
-        <div class="grid grid-cols-2 gap-4 lg:px-8 pt-3 pb-10">
+        <div class="grid w-4/5 mx-auto md:w-full grid-cols-3 gap-10 md:gap-6 justify-center align-center pt-6 pb-10">
         {% assign webdevprojects = site.projects | where:"group","webdev" %}
             {% for item in webdevprojects %}    
                 <div class="flex flex-col md:flex-row col-span-3 md:col-span-1 relative">
