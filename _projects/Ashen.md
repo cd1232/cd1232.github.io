@@ -6,8 +6,8 @@ group: professional
 urlsafetitle: Ashen
 image: images/ashen.png
 description: Set in a sprawling open world, Ashen is a tight, 3rd person, skill-based action RPG about guiding your wanderer through a newly lit world. I worked on gameplay bug fixes in Ashen & Ashen Nightstorm Isle. 
-source: https://onemanup.itch.io/exspelled
-exe: https://onemanup.itch.io/exspelled
+source:
+exe:
 
 datemade: 2019 - 2020
 platform: PC
