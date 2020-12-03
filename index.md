@@ -24,7 +24,11 @@ layout: home
                 <div class="flex flex-col md:flex-row col-span-3 md:col-span-1 relative">
                     <div class="w-full flex-shrink-0">
                     <a href="/projects/{{item.urlsafetitle}}" class="hover:text-blue-500">
+                    {% if item.tileimage == null %}
                         <img class="rounded w-full h-full object-cover shadow" src="{{ item.image }}"/>
+                    {% else %}
+                        <img class="rounded w-full h-full object-cover shadow" src="{{ item.tileimage }}"/>
+                    {% endif %}
                     </a>
                     </div>
                     <div class="absolute bg-gray-700 rounded rounded-r-none px-6 py-1" style="top:10px; right: 0px;">
