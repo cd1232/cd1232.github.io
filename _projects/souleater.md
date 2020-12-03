@@ -20,7 +20,7 @@ duration: 2 weeks
 ---
 
 <div class="grid grid-cols-1 md:grid-cols-3 mb-10">
-    <img src="/images/souleater.png" />
-    <img src="/images/souleater2.png" />
-    <img src="/images/souleater3.png" />
+    <img class="mx-auto" src="/images/souleater.png" />
+    <img class="mx-auto" src="/images/souleater2.png" />
+    <img class="mx-auto" src="/images/souleater3.png" />
 </div>
