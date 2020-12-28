@@ -9,7 +9,7 @@ layout: home
             <p>Hello!</p>
             <div class="pt-3 md:max-w-md">
                 <p>I'm Craig Duthie, a passionate gameplay and tools developer and an avid gamer.</p>
-                <p class="mt-3">My resume can be found <a class="text-blue-200 hover:text-blue-300" href="/docs/CraigDuthieResume-2020.pdf">here</a></p>
+                <p class="mt-3">My resume can be found <a class="text-blue-200 hover:text-blue-300" href="/docs/CraigDuthieResume-2021.pdf">here</a></p>
             </div>
         </div>
     </div>
