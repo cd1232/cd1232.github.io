@@ -7,6 +7,7 @@ urlsafetitle: souleater
 image: images/souleatersquare.png
 titleimage: images/souleatertitle.png
 tileimage: images/souleatersquare.png
+alttext: Soul eater title
 description: Soul Eater is a clicker game made for android over a few weeks. We looked at a couple of clicker games already on the market and tried to reproduce some of their mechanics. The main game we looked at was cookie clicker. <br/> <br/>Soul Eater features google play intergration in the form of a leaderboard and achievments. Soul Eater also runs when you're not using your phone, it does this by checking the time when it is opened again and adding those souls.
 
 source: 
