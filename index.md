@@ -17,7 +17,7 @@ layout: home
 
 <div class="w-full relative pt-16">
     <div class="w-full md:container mx-auto">
-    <h1 class="text-center text-3xl font-bold leading-wide uppercase">Professional</h1>
+    <h2 class="text-center text-3xl font-bold leading-wide uppercase">Professional</h2>
     <div>
         <div class="grid w-4/5 mx-auto md:w-full grid-cols-3 gap-10 md:gap-6 justify-center align-center pt-6 pb-10">
         {% assign professionalprojects = site.projects | where:"group","professional" %}
@@ -56,7 +56,7 @@ layout: home
 
 <div class="w-full relative pt-4">
     <div class="w-full md:container mx-auto">
-    <h1 class="text-center text-3xl font-bold leading-wide uppercase">Gamejam & University Projects</h1>
+    <h2 class="text-center text-3xl font-bold leading-wide uppercase">Gamejam & University Projects</h2>
     <div>
         <div class="grid w-4/5 mx-auto md:w-full grid-cols-3 gap-10 md:gap-6 justify-center align-center pt-6 pb-10">
         {% assign gamedevprojects = site.projects | where:"group","gamedev" %}
@@ -64,7 +64,7 @@ layout: home
                 <div class="flex flex-col md:flex-row col-span-3 md:col-span-1 relative">
                     <div class="w-full flex-shrink-0">
                     <a href="/projects/{{item.urlsafetitle}}" class="hover:text-blue-500">
-                        <img class="rounded w-full h-full object-cover shadow" src="{{ item.image }}"/>
+                        <img class="rounded w-full h-full object-cover shadow" src="{{ item.image }}" alt = "{{ item.alttext}}"/>
                     </a>
                     </div>
                     <div class="absolute bg-gray-700 rounded rounded-r-none px-6 py-1" style="top:10px; right: 0px;">
