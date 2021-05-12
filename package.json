@@ -1170,7 +1170,7 @@
       "resolved": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz",
       "version": "0.1.7"
     },
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.10",
     "postcss-functions": {
       "dependencies": {
         "postcss": {
