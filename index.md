@@ -9,7 +9,6 @@ layout: home
             <p>Hello!</p>
             <div class="pt-3 md:max-w-md">
                 <p>I'm Craig Duthie, a passionate gameplay, ui, and tools developer and an avid gamer.</p>
-                <p class="mt-3">Check out my <a class="text-blue-200 hover:text-blue-300" href="/docs/CraigDuthieResume-2021.pdf">resume</a> for more information</p>
             </div>
         </div>
     </div>
