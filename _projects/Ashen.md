@@ -11,7 +11,7 @@ source:
 exe:
 
 datemade: 2019 - 2020
-platform: PC
+platform: PC, Xbox One, PS4, Nintendo Switch
 engine: Unreal
 teamsize: --
 duration: --
