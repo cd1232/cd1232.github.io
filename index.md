@@ -8,7 +8,7 @@ layout: home
         <div class="px-3 md:px-0 mx-auto leading-wide text-center md:text-left text-lg md:text-xl">
             <p>Hello!</p>
             <div class="pt-3 md:max-w-md">
-                <p>I'm Craig Duthie, a passionate gameplay, ui, and tools developer and an avid gamer.</p>
+                <p>I'm Craig Duthie, a passionate gameplay and UI programmer.</p>
             </div>
         </div>
     </div>
