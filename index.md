@@ -55,7 +55,7 @@ layout: home
 
 <div class="w-full relative pt-4">
     <div class="w-full md:container mx-auto">
-    <h2 class="text-center text-3xl font-bold leading-wide uppercase">Gamejam & University Projects</h2>
+    <h2 class="text-center text-3xl font-bold leading-wide uppercase">Gamejam Projects</h2>
     <div>
         <div class="grid w-4/5 mx-auto md:w-full grid-cols-3 gap-10 md:gap-6 justify-center align-center pt-6 pb-10">
         {% assign gamedevprojects = site.projects | where:"group","gamedev" %}
