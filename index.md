@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-<div class="w-full py-20 shadow bg-cover bg-center" style="background-image:url('images/aboutbackground.png');">
+<div class="w-full py-10 shadow bg-cover bg-center" style="background-image:url('images/aboutbackground.png');">
     <div class="container mx-auto flex">
         <div class="px-3 md:px-0 mx-auto leading-wide text-center md:text-left text-lg md:text-xl">
             <p>Hello!</p>
