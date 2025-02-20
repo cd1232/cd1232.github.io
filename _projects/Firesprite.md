@@ -3,7 +3,7 @@ title: Firesprite
 layout: projectpage
 group: professional
 
-urlsafetitle: firesprite
+urlsafetitle: Firesprite
 image: images/firesprite.jpg
 alttext: Firesprite
 description: Worked on a project for Firesprite, unannounced and currently in development. At the company I worked on all aspects of the UI including menus, player HUD, settings, and other gameplay UI using UE5 and Common UI
